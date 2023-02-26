@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+
+  <body class="font-jakarta lg:relative">
+    <!-- header -->
+    <header
+      class="container mx-auto flex items-center justify-between px-5 py-8 relative z-20"
+    >
+      <img src="./assets/logo-dark.svg" alt="skilled logo" />
+      <div>
+        <a
+          class="rounded-full bg-fm-dark py-3 px-5 font-bold text-white transition-all duration-300 hover:bg-fm-grayish"
+          href="./index.html"
+          >Get Started</a
+        >
+      </div>
+    </header>
+    <main
+      class="container mx-auto bg-gradient-to-b from-white via-white to-[#666CA327] px-5"
+    >
+      <!-- hero -->
+      <section class="md:flex lg:items-center md:relative lg:static md:mb-36 lg:min-h-[600px] lg:mb-0">
+        <!-- text -->
+        <div class="md:flex md:flex-col md:w-6/12 lg:pr-40">
+          <h1 class="mt-6 text-fm-heading-l font-bold text-fm-dark">
+            Maximize skill, minimize budget
+          </h1>
+          <p class="py-6 text-fm-gray">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <div class="py-4">
+            <a
+              class="rounded-full bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] py-5 px-10 font-bold text-white transition-all duration-300 hover:opacity-50"
+              href="./index.html"
+              >Get Started</a
+            >
+          </div>
+        </div>
+        <!-- image -->
+        <div class="text-center overflow-hidden">
+          <img
+            class="md:hidden"
+            aria-hidden="true"
+            src="./assets/image-hero-mobile.webp"
+            alt="hero image"
+          />
+          <img
+            class="hidden md:block lg:hidden absolute -right-80 -top-2/3 z-0 pl-20 pt-10"
+            aria-hidden="true"
+            src="./assets/image-hero-tablet.webp"
+            alt="hero image"
+          />
+          <img
+          class="hidden lg:block absolute left-[50%] -top-[10%] z-0 pl-20 pt-10 lg:pl-0 lg:pt-0"
+          aria-hidden="true"
+          src="./assets/image-hero-desktop.webp"
+          alt="hero image"
+        />
+        </div>
+      </section>
+
+      <!-- popular courses -->
+      <section class="pb-10 md:pb-20 md:flex md:justify-center md:flex-wrap">
+        <div class="md:p-2 md:w-2/4 lg:w-4/12 md:mt-12">
+          <div class="rounded-lg bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] h-full">
+            <h2 class="py-8 px-10 text-fm-heading-s font-extrabold text-white">
+              Check out our most popular courses!
+            </h2>
+          </div>
+        </div>
+        
+        <!-- courses -->
+        <!-- animation card -->
+       
+        <div class="md:p-2 md:w-2/4 lg:w-4/12 mt-12">
+          <div class="realtive bg-white shadow rounded-lg h-full">
+            <img
+              class="absolute -mt-5 px-10"
+              aria-hidden="true"
+              src="./assets/icon-animation.svg"
+              alt="animation"
+            />
+            <div class="px-10 pb-6 pt-12">
+              <span class="block pb-3 pt-3 text-fm-heading-sm font-extrabold"
+                >Animation</span
+              >
+              <span class="block text-fm-gray py-5"
+                >Learn the latest animation techniques to create stunning motion
+                design and captivate your audience.</span
+              >
+              <div class="py-3">
+                <a
+                  class="bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] bg-clip-text text-fm-heading-sm font-bold text-transparent hover:brightness-125"
+                  href="./index.html"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- design card -->
+        <div class="md:p-2 md:w-2/4 lg:w-4/12 mt-12">
+          <div class="realtive bg-white shadow rounded-lg h-full">
+            <img
+              class="absolute -mt-5 px-10"
+              aria-hidden="true"
+              src="./assets/icon-design.svg"
+              alt="animation"
+            />
+            <div class="px-10 pb-6 pt-12">
+              <span class="block pb-3 pt-3 text-fm-heading-sm font-extrabold"
+                >Design</span
+              >
+              <span class="block text-fm-gray py-5"
+                >Create beautiful, usable interfaces to help shape the future of
+                how the web looks.
+              </span>
+              <div class="py-3">
+                <a
+                  class="bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] bg-clip-text text-fm-heading-sm font-bold text-transparent hover:brightness-125"
+                  href="./index.html"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- photography card -->
+        <div class="md:p-2 md:w-2/4 lg:w-4/12 mt-12">
+          <div class="realtive bg-white shadow rounded-lg h-full">
+            <img
+              class="absolute -mt-5 px-10"
+              aria-hidden="true"
+              src="./assets/icon-photography.svg"
+              alt="animation"
+            />
+            <div class="px-10 pb-6 pt-12">
+              <span class="block pb-3 pt-3 text-fm-heading-sm font-extrabold"
+                >Photography</span
+              >
+              <span class="block text-fm-gray py-5"
+                >Explore critical fundamentals like lighting, composition, and
+                focus to capture exceptional photos.</span
+              >
+              <div class="py-3">
+                <a
+                  class="bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] bg-clip-text text-fm-heading-sm font-bold text-transparent hover:brightness-125"
+                  href="./index.html"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- crypto card -->
+        <div class="md:p-2 md:w-2/4 lg:w-4/12 mt-12">
+          <div class="realtive bg-white shadow rounded-lg h-full">
+            <img
+              class="absolute -mt-5 px-10"
+              aria-hidden="true"
+              src="./assets/icon-crypto.svg"
+              alt="animation"
+            />
+            <div class="px-10 pb-6 pt-12">
+              <span class="block pb-3 pt-3 text-fm-heading-sm font-extrabold"
+                >Crypto</span
+              >
+              <span class="block text-fm-gray py-5"
+                >All you need to know to get started investing in crypto. Go from
+                beginner to advanced with this 54 hour course.</span
+              >
+              <div class="py-3">
+                <a
+                  class="bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] bg-clip-text text-fm-heading-sm font-bold text-transparent hover:brightness-125"
+                  href="./index.html"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- business card -->
+        <div class="md:p-2 md:w-2/4 lg:w-4/12 mt-12">
+          <div class="realtive bg-white shadow rounded-lg h-full">
+            <img
+              class="absolute -mt-5 px-10"
+              aria-hidden="true"
+              src="./assets/icon-business.svg"
+              alt="animation"
+            />
+            <div class="px-10 pb-6 pt-12">
+              <span class="block pb-3 pt-3 text-fm-heading-sm font-extrabold"
+                >Business</span
+              >
+              <span class="block text-fm-gray py-5"
+                >A step-by-step playbook to help you start, scale, and sustain
+                your business without outside investment.</span
+              >
+              <div class="py-3">
+                <a
+                  class="bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] bg-clip-text text-fm-heading-sm font-bold text-transparent hover:brightness-125"
+                  href="./index.html"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+       
+     
+      </section>
+    </main>
+
+    <footer class="container mx-auto px-5 bg-fm-dark py-10">
+      <div class="flex justify-between items-center">
+        <img aria-hidden="true" src="./assets/logo-light.svg" alt="logo skilled">
+        <a class="rounded-full bg-gradient-to-t from-[#4851FF] to-[#F02AA6] py-5 px-10 font-bold text-white transition-all duration-300 hover:opacity-75 hover:brightness-150" href="./index.html">Get Started</a>
+      </div>
+    </footer>
+   
+  </body>
+</html>
